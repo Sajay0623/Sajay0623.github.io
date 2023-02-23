@@ -5,17 +5,17 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div id="about">
+    <div  >
     <div className="about-sec">
-      <div className="main-about">
+      <div className="main-about about section" id="about"    >
 
           <div className="about-1">
-              <img className="about-img" src={"https://i.postimg.cc/d33fjtG1/ajay-pic.jpg"} alt="ajay" />
+              <img className="about-img" class="home-img" src={"https://i.postimg.cc/d33fjtG1/ajay-pic.jpg"} alt="ajay" />
           </div >
 
           <div className="about-2">
-            <h2 className="me">About Me</h2>
-              <p style={{textAlign:"justify"}} >
+            <h2 className="me"  id="user-detail-name" >About Me</h2>
+              <p style={{textAlign:"justify"}} id="user-detail-intro" >
               I am a skilled Full Stack Web Developer. Capable of writing production-ready code using MERN Stack to build single-page applications. Passionate to utilizing experience of working on projects for achieving organizational goals.
               </p>
           </div>

@@ -12,7 +12,7 @@ const Github = () => {
 
 
         
-            <div className='calendar'>
+            <div className='calendar react-activity-calendar'>
                 <GitHubCalendar
                     username="Sajay0623"
                     blockSize={22}
@@ -31,25 +31,20 @@ const Github = () => {
             </div>
 
 
-            {/* [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Sajay0623)](https://git.io/streak-stats) */}
+           
 
 
            <div className='stats'>
             <div className='stats1'>
-            <img className='img1' src="https://github-readme-stats.vercel.app/api/top-langs?username=Sajay0623&show_icons=true&locale=en&layout=compact" alt="Sajay0623" />
+            <img className='img1'  id="github-top-langs"  src="https://github-readme-stats.vercel.app/api/top-langs?username=sajay0623&show_icons=true&locale=en&layout=compact" alt="sajay0623" />
             </div>
             <div className='stats2'>
-            <img className='img2'  src="https://github-readme-streak-stats.herokuapp.com/?user=Sajay0623&" alt="Sajay0623" />
+            <img className='img2' id="github-streak-stats"  src="https://github-readme-streak-stats.herokuapp.com/?user=sajay0623&" alt="sajay0623" />
             </div>
             <div className='stats3'>
-            <img  className='img3' src="https://github-readme-stats.vercel.app/api?username=Sajay0623&show_icons=true&locale=en" alt="Sajay0623" />
+            <img  className='img3' id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=sajay0623&show_icons=true&locale=en" alt="sajay0623" />
             </div>
-            {/* <div className='stats4' >
-            <img className='img4'
-      alt = " Sajay0623"
-        align="center"
-        src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sajay0623&theme=github_dark" />
-            </div> */}
+            
            
             </div>
 

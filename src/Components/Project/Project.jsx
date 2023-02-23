@@ -2,8 +2,11 @@ import {AiFillHtml5} from 'react-icons/ai';
 import {DiCss3} from 'react-icons/di';
 import {TbBrandJavascript} from 'react-icons/tb';
 import {FaReact} from 'react-icons/fa';
-import {SiChakraui, SiCss3} from 'react-icons/si'
+import {SiChakraui} from 'react-icons/si'
  
+ 
+ 
+
 import("./Project.css");
 
 
@@ -19,18 +22,27 @@ export default function Proj(props) {
   return (
 
     <div id="project" className="proj">
-      <h1 className="h14">My Recent Work</h1>
-      <div className="projCont">
-        <img src="https://media.tenor.com/PykA8MgJn2wAAAAC/divider.gif" style = {{height:"3px"}} alt="divider" />
-      <div className="final"  >
+      <h1 className="h14">My Recent Projects</h1>
+
+      <img src="https://media.tenor.com/PykA8MgJn2wAAAAC/divider.gif" style = {{height:"3px" , width: "100%"}} alt="divider" />
+
+      <div className="projCont" id="projects">
+
+      <div className="project-card project-title">
+
+
           <div className="img">
             <img src="https://i.postimg.cc/fy5mNpTS/meanbuy.jpg" alt="meanbuy" />
           </div>
+
+
           <div>
             <h2 style={{fontSize:"20px"}}>Meanbuy.com</h2>
-            <p>
+            <p class="project-description" >
             This is an largest E-commerce site where customers can sell and buy their products from any where in the world.
             </p>
+
+
             <h3>Tech Stack</h3>
 
             <div className="tech">
@@ -38,18 +50,16 @@ export default function Proj(props) {
                <AiFillHtml5 className="techfont"/>
                 <p>HTML</p>
               </div>
-              
+              <div>
+                <DiCss3 className="techfont"/>
+                <p>CSS</p>
+              </div>
               <div>
                 <TbBrandJavascript className="techfont"/>
                 <p>JavaScript</p>
                
               </div>
-             
-              <div>
-                 <SiCss3 className='techfont'/> 
-                 <p>CSS</p> 
-              </div>
-              
+                                             
             </div>
             <div className="buttons">
               <a
@@ -69,16 +79,19 @@ export default function Proj(props) {
             </div>
           </div>
         </div>
+
         <img src="https://media.tenor.com/PykA8MgJn2wAAAAC/divider.gif" style = {{height:"3px"}} alt="divider" />
-      <div className="final">
-        
-          <div className="img">
+
+            {/* ----------------------------------- */}
+              <div className="project-card .project-title">
+              <div className="img">
             <img src="https://i.postimg.cc/R0n7HgG2/Explore-Up.jpg" alt="Travelocity" />
           </div>
+
           <div>
             <h2 style={{fontSize:"20px"}}>Travelocity.com</h2>
-            <p>
-            Travelocity.com is an online travel agency owned by Expedia Group. It has 12.4 million monthly unique visitors, making it the third most popular website
+            <p class="project-description" >
+            Travelocity.com is an online travel agency owned by Expedia Group. It has 12.4 million monthly unique visitors, making it the third most popular website.
             </p>
             <h3>Tech Stack</h3>
 
@@ -88,15 +101,21 @@ export default function Proj(props) {
                 <p>HTML</p>
               </div>
               <div>
+                <DiCss3 className="techfont"/>
+                <p>CSS</p>
+              </div>
+              
+              <div>
                 <TbBrandJavascript className="techfont"/>
                 <p>JavaScript</p>
                
               </div>
               <div>
-                <DiCss3 className="techfont"/>
-                <p>CSS</p>
+                <TbBrandJavascript className="techfont"/>
+                <p>Json-Server</p>
               </div>
-
+           
+              
             </div>
             <div className="buttons">
               <a
@@ -115,21 +134,24 @@ export default function Proj(props) {
               </a>
             </div>
           </div>
-       
+
+
         </div>
+
+
         <img src="https://media.tenor.com/PykA8MgJn2wAAAAC/divider.gif" style = {{height:"3px"}} alt="divider" />
-         <div className="final">
-          {/* ----------------------- */}
-         
+
+        {/* ----------------------------------- */}
+
+         <div className="project-card project-title">
           <div className="img">
             <img src="https://i.postimg.cc/QNqp19kN/SnapDeal.jpg" alt="SnapDeal" />
           </div>
           
-          
-          {/* ----------------------------------- */}
+  
           <div>
             <h2 style={{fontSize:"20px"}}>Snapdeal.com</h2>
-            <p>
+            <p class="project-description" >
             Snapdeal is an Indian e-commerce company, this is one of the largest online marketplaces in India.Snapdeal targets the value e-commerce segment, which Bahl estimated to be three times larger than the branded goods market. 
             </p>
             <h3>Tech Stack</h3>
@@ -155,21 +177,18 @@ export default function Proj(props) {
                  <SiChakraui className='techfont'/> 
                  <p>Chakra UI</p> 
               </div>
-              <div>
-                {/* <FaReact/> */}
-                {/* <p>ReactJs</p> */}
-              </div>
+              
             </div>
             <div className="buttons">
               <a
-                href="https://shimmering-faun-178df6.netlify.app/"
+                href="https://lambent-biscochitos-f96aab.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button>Preview</button>
               </a>
               <a
-                href="https://github.com/Sajay0623/symptomatic-cows-518"
+                href="https://github.com/Sajay0623/Snapdeal_Clone"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -179,16 +198,19 @@ export default function Proj(props) {
           </div>
         </div>
 
-        <img src="https://media.tenor.com/PykA8MgJn2wAAAAC/divider.gif" style = {{height:"3px"}} alt="divider" />
+      
+       <img src="https://media.tenor.com/PykA8MgJn2wAAAAC/divider.gif" style = {{height:"3px"}} alt="divider" />
+ {/* ----------------------------------- */}
+        <div className="project-card project-title">
 
-        <div className="final">
           <div className="img">
             <img src="https://i.postimg.cc/xTTLRftv/fitme.jpg" alt="Jefit" />
           </div>
           <div>
             <h2 style={{fontSize:"20px"}}>Jefit.com</h2>
-            <p>
-              Jefit can perform various functions such as allowing users to set fitness goals, tracking caloric intake, gathering workout ideas, and sharing progress on social media to facilitate healthy behavior change.
+            <p class="project-description" >
+            Jefit can perform various functions such as allowing users to set fitness goals, tracking caloric intake, gathering workout ideas, and sharing progress on social media to facilitate healthy behavior change.
+              
             </p>
             <h3>Tech Stack</h3>
 
@@ -209,10 +231,11 @@ export default function Proj(props) {
                  <FaReact className='techfont'/> 
                  <p>React</p> 
               </div> 
-               <div>
+              <div>
                  <SiChakraui className='techfont'/> 
                  <p>Chakra UI</p> 
               </div>
+              
             </div>
             <div className="buttons">
               <a
@@ -231,9 +254,12 @@ export default function Proj(props) {
               </a>
             </div>
           </div>
+
+
         </div> 
+        
+        {/* ----------------------------------- */}
         <img src="https://media.tenor.com/PykA8MgJn2wAAAAC/divider.gif" style = {{height:"3px"}} alt="divider" />
-       
 
        
       </div>

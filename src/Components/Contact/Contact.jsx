@@ -11,11 +11,12 @@ export default function Contact() {
         <div className="container">
           <h1 className="con-head">Contact Me</h1>
           <p>
-            Drop me a mail at <strong> <a href="mailto:sajay9885@gmail.com" className="mail-id">sajay9885@gmail.com</a></strong>
+            Drop me a mail at <strong> <a href="mailto:sajay9885@gmail.com" className="mail-id" id="contact-email" >sajay9885@gmail.com</a></strong>
           </p>
-          
+          <p  id="contact-phone" >Phone:+91-7509209204</p>
           <div className="links">
             <a
+             id="contact-github"
               href="https://github.com/Sajay0623"
               target="_blank"
               rel="noreferrer"
@@ -24,6 +25,7 @@ export default function Contact() {
               <AiFillGithub className="fontlink"/>
             </a>
             <a
+            id="contact-linkedin"
               href="https://www.linkedin.com/in/ajay-s-611b8623a/"
               target="_blank"
               rel="noreferrer"
