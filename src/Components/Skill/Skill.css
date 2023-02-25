@@ -1,4 +1,4 @@
-#skill {
+#skills {
   width: 90%;
   text-align: center;
   margin: auto;
@@ -8,6 +8,7 @@
   /* border-radius: 4%; */
   scroll-margin-top: 60px;
   background-color: #131f33;
+  /* border: 3px solid red; */
 }
 .h15 {
   /* padding-top: 6%; */

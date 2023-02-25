@@ -27,7 +27,7 @@ export default function Navbar() {
         <Link to="about" smooth={true} duration={500}>
           <li class="nav-link about" >About</li>
         </Link>
-        <Link to="skill" smooth={true} duration={500}>
+        <Link to="skills" smooth={true} duration={500}>
           <li class="nav-link skills" >Skills</li>
         </Link>
         <Link to="project" smooth={true} duration={500}>
@@ -37,12 +37,13 @@ export default function Navbar() {
           <li class="nav-link contact" >Contact</li>
         </Link>
         <a 
+        id="resume-link-1"
           href={pdf}
           target="_blank"
           rel="noreferrer"
           download
         >
-          <li id="resume-button-1" class="nav-link resume" >Resume</li> 
+          <li  id="resume-button-1"   class="nav-link resume" >Resume</li> 
           
         </a>
       </ul>
